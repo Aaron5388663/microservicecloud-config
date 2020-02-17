@@ -28,7 +28,7 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atlp.springcloud.entity
   mapper-locations: 
-  - classpath:mybatis/mapper/**/*.xml
+    - classpath:mybatis/mapper/**/*.xml
 
 eureka: 
   client: 
@@ -37,12 +37,6 @@ eureka:
   instance: 
     instance-id: dept-8001.com
     prefer-ip-address: true
-
-info: 
-  app.name: atlp-microservicecloud-springcloudconfig01
-  company.name: www.atlp.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
 
 ---
 
@@ -69,7 +63,7 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atlp.springcloud.entity
   mapper-locations: 
-  - classpath:mybatis/mapper/**/*.xml
+    - classpath:mybatis/mapper/**/*.xml
 
 eureka: 
   client: 
@@ -78,9 +72,3 @@ eureka:
   instance: 
     instance-id: dept-8001.com
     prefer-ip-address: true
-
-info: 
-  app.name: atlp-microservicecloud-springcloudconfig02
-  company.name: www.atlp.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
